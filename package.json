@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node dist/src/index.js",
     "dev": "ts-node-dev src/index.ts",
-    "build": "tsc"
+    "build": "yarn && yarn tsc"
   },
   "dependencies": {
     "@prisma/client": "4.9.0",
